@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	  <!--  Meta  -->
+	    <meta charset="UTF-8">
+	    <title>LEMÖN PERFUMES</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="mi pagina web responsive en HTML">
+        <meta name="author" content="June">
+        <link rel="icon" href="assets/img/favicon_lemön.png" type="image/png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+	  <!--  Styles  -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+	    <link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	  
+	<body>
+        <div class="top-section" id="inicio">
+            <div class="back-black width-100 color-white padding-header-top">
+                <p class="text-align-center width-100 font-size-small">Envío gratuito en pedidos superiores a 39€</p>
+            </div>
+
+		    <!-- Header -->
+		    <header class="inicio padding-header-top overflow-hidden padding-mobile-header z-index-30">
+                <div class="flex flex-direction-row justify-content-space-between width-100 align-items-center position-relative">
+                    <div>
+                        <img src="assets/img/LEMÖN_logo.png" alt="Logo de Lemön">
+                    </div>
+                    <div class="hamburger-icon">
+                        <label for="dropdown">
+                            <span>menu 🍋</span>
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <input type="checkbox" id="dropdown" name="dropdown">
+                    </div>
+                </div>
+
+                <nav class="navigation">
+                    <ol class="color-black flex text-decoration-none flex-direction-column padding-top-20">
+                        <li><a href="#inicio" title="Inicio">Inicio</a></li>
+                        <li><a href="#productos" title="Productos">Productos</a></li>
+                        <li><a href="#caracteristicas" title="Características">Características</a></li>
+                        <li><a href="#precios" title="Precios">Precios</a></li>
+                        <li><a href="#testimonios" title="Testimonios">Testimonios</a></li>
+                        <li><a href="#contacto" title="Contacto">Contacto</a></li>
+                    </ol>
+                </nav>
+            </header>
+	
+		    <!-- Hero Section -->
+		    <div class="back-img flex justify-content-center height-600">
+                <div class="position-relative inset-0 flex flex-direction-column justify-content-center gap-16 lg:padding-right-300 width-50 lg:width-40">
+                    <h1 class="font-size-h1">NEW</h1>
+                    <p class="font-size-base">
+                        Suscríbete y recibe
+                        fragancias exclusivas, 
+                        inspiradas en ingredientes 
+                        100% naturales.
+                    </p>
+                    <h1 class="font-size-h1">PERFUME</h1>
+                </div>
+            </div>
+
+            <!-- Carrusel -->   
+            <div class="back-peach overflow-hidden align-items-center padding-header-top width-100">
+                <div class="carrusel">
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                    <h2 class="font-size-h2">LEMÖN</h2><h3 class="font-size-h3">★</h3><h2 class="font-size-h2">SUSCRÍBETE AHORA</h2><h3 class="font-size-h3">★</h3>
+                </div>
+            </div>
+		
+		    <!-- Products Section -->
+		    <section id="productos" class="padding-section flex flex-direction-column gap-16">
+                <div class="flex flex-direction-row justify-content-space-between align-items-center">
+                    <h2 class="font-size-h2">Nuestros productos</h2>
+                    <h3 class="see-more font-size-h3"><a href="#">Ver todo</a></h3>
+                </div>
+                <div class="flex flex-direction-column lg:flex-direction-row ip:flex-direction-row gap-10">
+                    <div class="padding-bottom-10 width-100 lg:width-50">
+                        <article class="article-img flex flex-direction-column gap-10 padding-bottom-10 fragancia-del-mes">
+                            <div class="overflow-hidden position-relative aspect-ratio-1-1">
+                                <img src="assets/img/citrus_bloom.jpg" alt="Producto Citrus Bloom de Lemön" class="product-img front">
+                                <img src="assets/img/fragance-product-1.png" alt="Producto Citrus Bloom de Lemön" class="product-img back">
+                            </div>
+                            <h3 class="font-size-h3 product-name"><a href="#">CITRUS BLOOM</a></h3>
+                            <p class="font-size-small">Una mezcla luminosa de bergamota, flor de azahar y notas de almizcle. Inspirada en la energía de los primeros días de primavera.</p>
+                        </article>
+                    </div>
+
+                    <div class="grid past-products width-100 lg:width-50">
+                        <article class="article-img flex flex-direction-column gap-10 padding-bottom-10">
+                            <div class="overflow-hidden">
+                                <img src="assets/img/amber_cloud.jpg" alt="Producto Amber Cloud de Lemön" class="product-img">
+                            </div>
+                            <h3 class="font-size-h3 product-name"><a href="#">AMBER CLOUD</a></h3>
+                            <p class="font-size-small">Fragancia de octubre</p>
+                        </article>
+
+                        <article class="article-img flex flex-direction-column gap-10 padding-bottom-10">
+                            <div class="overflow-hidden">
+                                <img src="assets/img/verde_lune.jpg" alt="Producto Verde Lune de Lemön" class="product-img">
+                            </div>
+                            <h3 class="font-size-h3 product-name"><a href="#">VERDE LUNE</a></h3>
+                            <p class="font-size-small">Fragancia de septiembre</p>
+                        </article>
+
+                        <article class="article-img flex flex-direction-column gap-10 padding-bottom-10">
+                            <div class="overflow-hidden">
+                                <img src="assets/img/soft_neroli.jpg" alt="Producto Soft Neroli de Lemön" class="product-img">
+                            </div>
+                            <h3 class="font-size-h3 product-name"><a href="#">SOFT NEROLI</a></h3>
+                            <p class="font-size-small">Fragancia de agosto</p>
+                        </article>
+
+                        <article class="article-img flex flex-direction-column gap-10 padding-bottom-10">
+                            <div class="overflow-hidden">
+                                <img src="assets/img/costal_air.jpg" alt="Producto Costal Air de Lemön" class="product-img">
+                            </div>
+                            <h3 class="font-size-h3 product-name"><a href="#">COSTAL AIR</a></h3>
+                            <p class="font-size-small">Fragancia de julio</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+		
+		    <!-- Features Section -->
+		    <section id="caracteristicas" class="padding-section lg:padding-section">
+                <h2 class="font-size-h2 lg:padding-title-desktop">Características principales</h2>
+                <div class="accordion">
+                    <div class="accordion-items">
+                        <article class="accordion-item">
+                            <div class="position-absolute padding-card flex flex-direction-column gap-16 justify-content-flex-end height-full z-index-20">
+                                <h3 class="font-size-h3">Una fragancia cada mes</h3>
+                                <p class="font-size-base">Recibe aromas únicos creados en exclusiva para miembros.</p>
+                            </div>
+                            <div class="height-full">
+                                <img src="assets/img/mes-a-mes.jpg" alt="Primera caracteristica de Lemön">
+                            </div>
+                        </article>
+
+                        <article class="accordion-item">
+                            <div class="position-absolute padding-card flex flex-direction-column gap-16 justify-content-flex-end height-full z-index-20">
+                                <h3 class="font-size-h3">Inspiradas en la naturaleza</h3>
+                                <p class="font-size-base">Ingredientes limpios, veganos y sin crueldad animal.</p>
+                            </div>
+                            <div class="height-full">
+                                <img src="assets/img/natural.jpg" alt="Segunda caracteristica de Lemön">
+                            </div>
+                        </article>
+
+                        <article class="accordion-item">
+                            <div class="position-absolute padding-card flex flex-direction-column gap-16 justify-content-flex-end height-full z-index-20">
+                                <h3 class="font-size-h3">Formato discovery</h3>
+                                <p class="font-size-base">Mini frascos de 10 ml ideales para probar y llevar contigo.</p>
+                            </div>
+                            <div class="height-full">
+                                <img src="assets/img/formato.jpg" alt="Tercera caracteristica de Lemön">
+                            </div>
+                        </article>
+
+                        <article class="accordion-item">
+                            <div class="position-absolute padding-card flex flex-direction-column gap-16 justify-content-flex-end height-full z-index-20">
+                                <h3 class="font-size-h3">Experiencia sensorial</h3>
+                                <p class="font-size-base">Cada envío incluye una postal con la historia del aroma.</p>
+                            </div>
+                            <div class="height-full">
+                                <img src="assets/img/experiencia.jpg" alt="Cuarta caracteristica de Lemön">
+                            </div>
+                        </article>
+
+                        <article class="accordion-item order-5">
+                            <div class="position-absolute padding-card flex flex-direction-column gap-16 justify-content-flex-end height-full z-index-20">
+                                <h3 class="font-size-h3">Flexibilidad total</h3>
+                                <p class="font-size-base">Cambia, pausa o cancela tu suscripción en cualquier momento.</p>
+                            </div>
+                            <div class="height-full">
+                                <img src="assets/img/flexibilidad.jpg" alt="Quinta caracteristica de Lemön">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Big Text -->
+            <main class="width-100 lg:padding-title-desktop">
+                <h1 class="font-size-h1 color-dark-gray text-align-justify text-transform-uppercase">
+                    <span class="big-text">No entregamos</span> <span class="big-text">un simple producto,</span> <apan class="big-text">sino una invitación</apan> <span class="big-text">a coleccionar instantes invisibles</span> <span class="big-text">y a portar la memoria con una impronta inesperada.</span> <span class="big-text">Nos dedicamos al arte de la metamorfosis sutil,</span> <span class="big-text">proporcionando un velo efímero</span> <span class="big-text">que acompaña la evolución,</span> <span class="big-text">asegurando que su presencia</span> <span class="big-text">deje siempre una huella única</span> <span class="big-text">antes de desvanecerse.</span>
+                </h1>
+            </main>
+		
+		    <!-- Video Section -->
+		    <div class="position-relative">
+                <video autoplay loop muted id="background-video" class="width-100 height-600 object-fit-cover">
+                    <source src="assets/video/perfume_video.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+                <div class="text-video position-absolute text-align-center width-100">
+                    <div class="flex flex-direction-row justify-content-center">
+                        <h3 class="text-video-item"><span class="text-video-word text-video-word-pseudo" data-texto="DESCUBRE"><span class="text-video-word-text">DESCUBRE</span></span></h3>
+                        <h3 class="text-video-item"><span class="text-video-word text-video-word-pseudo" data-texto="LA"><span class="text-video-word-text">LA</span></span></h3>
+                        <h3 class="text-video-item"><span class="text-video-word text-video-word-pseudo" data-texto="EXPERIENCIA"><span class="text-video-word-text">EXPERIENCIA</span></span></h3>
+                        <h3 class="text-video-item"><span class="text-video-word text-video-word-pseudo font-weight-700" data-texto="LEMÖN CLUB"><span class="text-video-word-text">LEMÖN CLUB</span></span></h3>
+                    </div>
+                </div>
+            </div>
+		
+		    <!-- Pricing Section -->
+		    <section id="precios" class="position-relative flex flex-direction-column gap-16 padding-section">
+                <h2 class="font-size-h2">Planes de Precio</h2>
+                <div class="flex flex-direction-column lg:flex-direction-row ip:flex-direction-row justify-content-center align-items-center gap-16 height-auto width-100 lg:flex-1">
+                    <article class="prices-card border-1-gray padding-card border-radius-8 width-100 height-full flex flex-direction-column gap-10 z-index-2">
+                        <h4 class="font-size-h4 padding-bottom-10">Mensual</h4>
+                        <h2 class="font-size-h2 padding-bottom-10 price month">24,99</h2>
+                        <div class="padding-bottom-10 flex flex-direction-column gap-10">
+                            <p class="icon-price-text font-size-base">1 fragancia cada mes</p>
+                            <p class="icon-price-text font-size-base">Envío estándar incluido</p>
+                            <p class="icon-price-text font-size-base">Cancela cuando quieras</p>
+                            <p class="icon-price-text font-size-base">Acceso a la Newsletter</p>
+                        </div>
+                        <div class="button">
+                                <button href="#" class="select select-gradient">Empezar ahora</button>
+                            </div>
+                    </article>
+
+                    <article class="width-100 height-full flex flex-direction-row lg:flex-direction-column ip:flex-direction-column gap-10 z-index-10 align-items-center">
+                        <div class="prices-card border-1-gray flex flex-direction-column border-radius-8 padding-card width-100 gap-10 lg:order-2">
+                            <h4 class="font-size-h4 padding-bottom-10">Trimestral</h4>
+                            <h2 class="font-size-h2 padding-bottom-10 oferta price">67,99</h2>
+                            <div class="padding-bottom-10 flex flex-direction-column gap-10">
+                                <p class="icon-price-text font-size-base">Tres fragancias</p>
+                                <p class="icon-price-text font-size-base">Ahorra un 10%</p>
+                                <p class="icon-price-text font-size-base">Contenido exclusivo</p>
+                                <p class="icon-price-text font-size-base">Acceso anticipado a nuevos lanzamientos</p>
+                            </div>
+                            <div class="button">
+                                <button href="#" class="select select-gradient">Empezar ahora</button>
+                            </div>
+                        </div>
+                        <div class="popular">
+                            <p class="font-size-base">MÁS POPULAR</p>
+                        </div>
+                    </article>
+
+                    <article class="prices-card border-1-gray padding-card border-radius-8 width-100 height-full color-black flex flex-direction-column gap-10 z-index-0">
+                        <h4 class="font-size-h4 padding-bottom-10">Anual</h4>
+                        <h2 class="font-size-h2 padding-bottom-10 price">249</h2>
+                        <div class="padding-bottom-10 flex flex-direction-column gap-10">
+                            <p class="icon-price-text font-size-base">12 fragancias</p>
+                            <p class="icon-price-text font-size-base">1 edición exclusiva gratis</p>
+                            <p class="icon-price-text font-size-base">Regalo sorpresa trimestral</p>
+                            <p class="icon-price-text font-size-base">Acceso VIP a eventos online</p>
+                        </div>
+                        <div class="button">
+                                <button href="#" class="select select-gradient">Empezar ahora</button>
+                            </div>
+                    </article>
+                </div>
+            </section>
+		
+		    <!-- Testimonials Section -->
+		    <section id="testimonios" class="testimonios position-relative padding-section">
+                <h2 class="font-size-h2 padding-bottom-10">Testimonios</h2>
+                <div class="testimonial-grid z-index-20 flex flex-direction-column gap-16">
+                    <div class="item item-1 back-semi-white border-1-gray z-index-20 padding-card border-radius-8 flex flex-direction-column justify-content-space-between">
+                        <div class="padding-bottom-10 flex flex-direction-row">
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                        </div>
+                        <p class="font-size-base padding-bottom-10">"Cada mes huele mejor. ¡Estoy enganchada!"</p>
+                        <p class="font-size-small color-dark-gray">M**** R.</p>
+                    </div>
+
+                    <div class="item item-2 back-semi-white border-1-gray z-index-20 padding-card border-radius-8 flex flex-direction-column justify-content-space-between">
+                        <div class="padding-bottom-10 flex flex-direction-row">
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                        </div>
+                        <p class="font-size-base padding-bottom-10">"Súper cómodo y de mucha calidad. Lo recomiendo."</p>
+                        <p class="font-size-small color-dark-gray">C***** D.</p>
+                    </div>
+
+                    <div class="item item-3 back-semi-white border-1-gray z-index-20 padding-card border-radius-8 flex flex-direction-column justify-content-space-between">
+                        <div class="padding-bottom-10 flex flex-direction-row">
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                        </div>
+                        <p class="font-size-base padding-bottom-10">"Fragancias preciosas y siempre diferentes."</p>
+                        <p class="font-size-small color-dark-gray">L**** G.</p>
+                    </div>
+
+                    <div class="item item-4 back-semi-white border-1-gray z-index-20 padding-card border-radius-8 flex flex-direction-column justify-content-space-between">
+                        <div class="padding-bottom-10 flex flex-direction-row">
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                        </div>
+                        <p class="font-size-base padding-bottom-10">"Un servicio top. Me sorprenden cada mes."</p>
+                        <p class="font-size-small color-dark-gray">A***** V.</p>
+                    </div>
+
+                    <div class="item item-5 back-semi-white border-1-gray z-index-20 padding-card border-radius-8 flex flex-direction-column justify-content-space-between">
+                        <div class="padding-bottom-10 flex flex-direction-row">
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                            <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                        </div>
+                        <p class="font-size-base padding-bottom-10">"Aromas increíbles cada mes. Siempre un acierto."</p>
+                        <p class="font-size-small color-dark-gray">S**** M.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+		
+        <div id="contacto" class="fixed-section">
+            <!-- Contact Section -->
+            <div class="padding-section lg:padding-desktop flex flex-direction-column lg:flex-direction-row gap-30 align-items-center height-100 justify-content-center">
+                <div class="footer-img width-100 lg:width-50">
+                    <img class="border-radius-8 object-fit-cover none lg:inline" src="assets/img/footer-img.png" alt="Nuestro perfume en manos de una mujer"/>
+                </div>
+                <section class="flex flex-direction-column lg:justify-content-center width-100 lg:width-50 height-auto gap-16">
+                    <h2 class="font-size-h2 color-white">Suscríbete a LEMÖN CLUB</h2>
+                    <p class="font-size-base color-white">Únete a la comunidad de aromas y recibe novedades cada mes.</p>
+                    <form action="#" method="post" class="flex flex-direction-column gap-10">
+
+                        <div class="width-100 flex flex-direction-row gap-10">
+                            <input class="input text width-100" type="text" id="name" name="name" placeholder="Tu nombre" required>
+                            <input class="input text width-100" type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+
+                        <div class="form-select flex flex-direction-row align-items-center">
+                            <label for="select" class="color-white font-size-small">Qué suscripción te interesa?</label>
+                            <div class="select-wrapper width-100">
+                                <select id="select" name="select" class="color-white font-size-small">
+                                    <option>Mensual</option>
+                                    <option>Trimestral</option>
+                                    <option>Anual</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <textarea class="input textarea" id="message" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+
+                        <div class="form-check">
+                            <p>
+                                <label>
+                                    <input type="checkbox" name="fruit" value="cherry" />Quiero recibir noticias y novedades de Lemön por correo electrónico.
+                                </label>
+                            </p>
+                        </div>
+
+                        <button class="back-peach padding-button border-radius-100 border-0 margin-top-10" type="submit">Enviar</button>
+                    </form>
+                </section>
+            </div>
+		
+		    <!-- Footer -->
+		    <footer class="color-white bottom-0 position-absolute text-align-center flex flex-direction-column lg:flex-direction-row justify-content-center width-100 gap-10 z-index-back">
+                <div class="color-white z-index-30 position-absolute flex flex-direction-column lg:flex-direction-row align-items-center justify-content-center gap-10 lg:gap-10 bottom-0 padding-bottom-10 width-100">
+                    <p class="font-size-small">© 2025 Lemön Perfumes</p>
+                    <span class="none lg:inline">|</span>
+                    <a href="#" class="font-size-small color-white">Privacy Policy</a>
+                    <span class="none lg:inline">|</span>
+                    <a href="#" class="font-size-small color-white">Terms & Conditions</a>
+                </div>
+                <img src="assets/img/logo_footer.png" alt="Logotipo de Lemön" class="width-100 lg:width-50 height-auto padding-none z-index-back opacity-20">
+            </footer>
+        </div>
+	</body>
+  
+</html>
