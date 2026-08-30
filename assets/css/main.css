@@ -359,7 +359,7 @@ img {
 }
 
 .back-img {
-    background-image: url(assets/img/perfume_foto.jpg);
+    background-image: url(/assets/img/perfume_foto.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
